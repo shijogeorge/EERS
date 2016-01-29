@@ -1,0 +1,40 @@
+/* CSS file for index.html */
+
+
+body
+{
+    background-position   :top left;
+    background-color      :rgb(130,190,180);
+    background-attachment :fixed;
+}
+
+/*---------------------------------------------------------*/
+
+h1
+{
+    top         :-10px;
+    left        :380px;
+    font-family :'Tahoma', serif;
+    color       :rgb(40,40,40);
+    font-size   :32px;
+    text-align  :center;
+    font-weight :300;
+    position    :absolute;
+}
+
+/*---------------------------------------------------------*/
+
+#button
+{
+    border-radius :5px;
+    width         :200px;
+    height        :40px;
+    background    :rgb(252,252,252);
+    font-weight   :semi-bold;
+    font-size     :18px;
+    color         :rgb(70,70,70);
+    margin-left   :80px;
+    border        :2px solid #C3E5FA;
+}
+
+/*---------------------------------------------------------*/

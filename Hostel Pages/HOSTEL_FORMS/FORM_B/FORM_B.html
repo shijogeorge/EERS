@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>FORM B</title>
+<link rel="stylesheet" type="text/css" href="FORM_B.css" media="all">
+<script type="text/javascript" src="view.js"></script>
+<script type="text/javascript" src="calendar.js"></script>
+<script type="text/javascript" src="../js/validate_FORM.js"></script>
+</head>
+<body id="main_body" >
+	
+	<img id="top" src="top.png" alt="">
+	<div id="form_container">
+	
+		<h1><a>FORM B</a></h1>
+		<form name="hostelform" id="form_931503" class="appnitro"  method="post" action="" onSubmit="return validateForm()" />
+					<div class="form_description">
+			<h2>FORM B</h2>
+			<p>PERMISSION TO STAY OUT FOR A DAY/DAYS :</p>
+		</div>						
+			<ul >
+			
+					<li id="li_1" >
+		<label class="description" for="element_1">Room No. : </label>
+		<div>
+			<input id="element_1" name="element_1" class="element text extra small" autofocus type="text" maxlength="3" value=""/> 
+		</div> 
+		</li>		<li id="li_2" >
+		<label class="description" for="element_2">Name : </label>
+		<div>
+			<input id="element_2" name="element_2" class="element text medium" type="text" maxlength="30" value=""/> 
+		</div> 
+		</li>		<li id="li_3" >
+		<label class="description" for="element_3">Phone </label>
+		<span>
+			<input id="element_3_1" name="element_3_1" class="element text" size="15" maxlength="10" value="" type="text">
+			<label for="element_3_1">(###)&nbsp;-&nbsp;(###)&nbsp;-&nbsp;(####)</label>
+		</span>
+		 
+		</li>		<li id="li_6" >
+		<label class="description" for="element_4a">Reason : </label>
+		<div>
+			<input id="element_4a" name="element_4a" class="element text medium" type="text" maxlength="60" value=""/> 
+		</div> 
+		</li>		<li id="li_7" >
+		<label class="description" for="element_7">Return : </label>
+		<div>
+			<input id="element_7" name="element_7" class="element text medium" type="text" maxlength="60" value=""/> 
+		</div> 
+		</li>		<li id="li_4" >
+		<label class="description" for="element_4">Place of Stay : </label>
+		<div>
+			<input id="element_4" name="element_4" class="element text medium" type="text" maxlength="30" value=""/> 
+		</div> 
+		</li>		<li id="li_5" >
+		<label class="description" for="element_5">Date </label>
+		<span>
+			<input id="element_5_1" name="element_5_1" class="element text" size="2" maxlength="2" value="" type="text"> /
+			<label for="element_5_1">MM</label>
+		</span>
+		<span>
+			<input id="element_5_2" name="element_5_2" class="element text" size="2" maxlength="2" value="" type="text"> /
+			<label for="element_5_2">DD</label>
+		</span>
+		<span>
+	 		<input id="element_5_3" name="element_5_3" class="element text" size="4" maxlength="4" value="" type="text">
+			<label for="element_5_3">YYYY</label>
+		</span>
+	
+		<span id="calendar_5">
+			<img id="cal_img_5" class="datepicker" src="calendar.gif" alt="Pick a date.">	
+		</span>
+		<script type="text/javascript">
+			Calendar.setup({
+			inputField	 : "element_5_3",
+			baseField    : "element_5",
+			displayArea  : "calendar_5",
+			button		 : "cal_img_5",
+			ifFormat	 : "%B %e, %Y",
+			onSelect	 : selectDate
+			});
+		</script>
+		 
+		</li> <br/><br/>
+			
+					<li class="buttons">
+			    <input type="hidden" name="form_id" value="931503" />
+			    
+				<input id="button" class="button_text" type="submit" name="submit" value="Submit" style="cursor:pointer" />
+		</li>
+			</ul>
+		</form>	
+		<div id="footer">
+			Copyright 2014&nbsp;<a href="index.html">EERS</a>.All Rights Reserved
+		</div>
+	</div>
+	<img id="bottom" src="bottom.png" alt="">
+	</body>
+</html>
